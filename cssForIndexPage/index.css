@@ -1,0 +1,24 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    
+}
+
+li{
+    float: left;
+    
+}
+li a{
+    display: block;
+    color: orange;
+    text-align: center;
+    padding: 15px 18px;
+    text-decoration: none;
+}
+
+.righty{
+    float: right;
+}
