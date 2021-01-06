@@ -6,14 +6,34 @@
   <title></title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <link rel="stylesheet" href="style.css">
+  <style>
+      #title {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+  </style>
+
 </head>
 
 <body>
 
+  <nav class="sticky">
+    <a id="current-page">Home</a>
+    <a href="page2.html">Problem</a>
+    <a href="page3.html">Solution</a>
+  </nav>
 
-  <p>Hello world! HTML5 Boilerplate.</p>
+  <header class="title-container">
+    <div id="title" class="title">Climate Change</div>   
+    <img class="header-image" src="climate-change.jpg" width="100%"/>
+  </header>
+  
+  <section>  
+    <h3>What is climate change?</h3>
+    <p>Many people’s understanding of climate change is based on the 2006 documentary "An Inconvenient Truth" (An Inconvenient Truth), that the phenomenon of Global Warming refers to greenhouse gases in the atmosphere and oceans. Excessive amounts (including carbon dioxide, methane, water vapor, and nitrous oxide) make the earth seem to be shrouded in a thick greenhouse, and the heat from the sun is difficult to dissipate, leading to temperature rises and triggering various extreme weather such as drought, rainstorms, and heat waves Wait.</p>
+  </section>
 
   <script src="app.js"></script>
 
